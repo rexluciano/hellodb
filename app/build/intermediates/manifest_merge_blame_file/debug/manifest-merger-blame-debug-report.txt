@@ -1,0 +1,109 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.rex.db.node.example"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/storage/emulated/0/AndroidIDEProjects/HelloDB/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->/storage/emulated/0/AndroidIDEProjects/HelloDB/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->[:hellodb] /storage/emulated/0/AndroidIDEProjects/HelloDB/hellodb/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-67
+11-->[:hellodb] /storage/emulated/0/AndroidIDEProjects/HelloDB/hellodb/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->[:hellodb] /storage/emulated/0/AndroidIDEProjects/HelloDB/hellodb/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-79
+12-->[:hellodb] /storage/emulated/0/AndroidIDEProjects/HelloDB/hellodb/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:22-76
+13
+14    <application
+14-->/storage/emulated/0/AndroidIDEProjects/HelloDB/app/src/main/AndroidManifest.xml:5:5-22:19
+15        android:name="com.rex.db.node.example.App"
+15-->/storage/emulated/0/AndroidIDEProjects/HelloDB/app/src/main/AndroidManifest.xml:6:9-28
+16        android:allowBackup="true"
+16-->/storage/emulated/0/AndroidIDEProjects/HelloDB/app/src/main/AndroidManifest.xml:7:9-35
+17        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+17-->[androidx.core:core:1.7.0] /data/data/com.itsaky.androidide/files/home/.gradle/caches/transforms-3/e7f8a98212e6f706008df53350663e33/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+18        android:debuggable="true"
+19        android:icon="@mipmap/ic_launcher"
+19-->/storage/emulated/0/AndroidIDEProjects/HelloDB/app/src/main/AndroidManifest.xml:8:9-43
+20        android:label="@string/app_name"
+20-->/storage/emulated/0/AndroidIDEProjects/HelloDB/app/src/main/AndroidManifest.xml:9:9-41
+21        android:roundIcon="@mipmap/ic_launcher_round"
+21-->/storage/emulated/0/AndroidIDEProjects/HelloDB/app/src/main/AndroidManifest.xml:10:9-54
+22        android:supportsRtl="true"
+22-->/storage/emulated/0/AndroidIDEProjects/HelloDB/app/src/main/AndroidManifest.xml:11:9-35
+23        android:theme="@style/Theme.Application"
+23-->/storage/emulated/0/AndroidIDEProjects/HelloDB/app/src/main/AndroidManifest.xml:12:9-49
+24        android:usesCleartextTraffic="true" >
+24-->[:hellodb] /storage/emulated/0/AndroidIDEProjects/HelloDB/hellodb/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:18-53
+25        <activity
+25-->/storage/emulated/0/AndroidIDEProjects/HelloDB/app/src/main/AndroidManifest.xml:13:9-21:20
+26            android:name="com.rex.db.node.example.MainActivity"
+26-->/storage/emulated/0/AndroidIDEProjects/HelloDB/app/src/main/AndroidManifest.xml:14:13-41
+27            android:exported="true" >
+27-->/storage/emulated/0/AndroidIDEProjects/HelloDB/app/src/main/AndroidManifest.xml:15:13-36
+28            <intent-filter>
+28-->/storage/emulated/0/AndroidIDEProjects/HelloDB/app/src/main/AndroidManifest.xml:16:13-20:29
+29                <action android:name="android.intent.action.MAIN" />
+29-->/storage/emulated/0/AndroidIDEProjects/HelloDB/app/src/main/AndroidManifest.xml:17:17-69
+29-->/storage/emulated/0/AndroidIDEProjects/HelloDB/app/src/main/AndroidManifest.xml:17:25-66
+30
+31                <category android:name="android.intent.category.LAUNCHER" />
+31-->/storage/emulated/0/AndroidIDEProjects/HelloDB/app/src/main/AndroidManifest.xml:19:17-77
+31-->/storage/emulated/0/AndroidIDEProjects/HelloDB/app/src/main/AndroidManifest.xml:19:27-74
+32            </intent-filter>
+33        </activity>
+34
+35        <service
+35-->[:hellodb] /storage/emulated/0/AndroidIDEProjects/HelloDB/hellodb/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:9-21:19
+36            android:name="com.rex.hellodb.components.ComponentDiscoveryService"
+36-->[:hellodb] /storage/emulated/0/AndroidIDEProjects/HelloDB/hellodb/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-80
+37            android:exported="false" >
+37-->[:hellodb] /storage/emulated/0/AndroidIDEProjects/HelloDB/hellodb/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-37
+38            <meta-data
+38-->[:hellodb] /storage/emulated/0/AndroidIDEProjects/HelloDB/hellodb/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-20:81
+39                android:name="com.rex.hellodb.components:com.rex.hellodb.components.ComponentRegistrar"
+39-->[:hellodb] /storage/emulated/0/AndroidIDEProjects/HelloDB/hellodb/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:17-104
+40                android:value="com.rex.hellodb.components.ComponentRegistrar" />
+40-->[:hellodb] /storage/emulated/0/AndroidIDEProjects/HelloDB/hellodb/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:17-78
+41        </service>
+42        <service
+42-->[:worker] /storage/emulated/0/AndroidIDEProjects/HelloDB/worker/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-16:19
+43            android:name="com.rex.worker.Worker"
+43-->[:worker] /storage/emulated/0/AndroidIDEProjects/HelloDB/worker/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-49
+44            android:exported="false" >
+44-->[:worker] /storage/emulated/0/AndroidIDEProjects/HelloDB/worker/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-37
+45            <intent-filter>
+45-->[:worker] /storage/emulated/0/AndroidIDEProjects/HelloDB/worker/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-15:29
+46                <action android:name="com.rex.worker.action.START" />
+46-->[:worker] /storage/emulated/0/AndroidIDEProjects/HelloDB/worker/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:17-70
+46-->[:worker] /storage/emulated/0/AndroidIDEProjects/HelloDB/worker/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:25-67
+47            </intent-filter>
+48        </service>
+49
+50        <provider
+50-->[androidx.emoji2:emoji2:1.0.0] /data/data/com.itsaky.androidide/files/home/.gradle/caches/transforms-3/4f535a023a867df8d00acb7c626ac076/transformed/emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+51            android:name="androidx.startup.InitializationProvider"
+51-->[androidx.emoji2:emoji2:1.0.0] /data/data/com.itsaky.androidide/files/home/.gradle/caches/transforms-3/4f535a023a867df8d00acb7c626ac076/transformed/emoji2-1.0.0/AndroidManifest.xml:27:13-67
+52            android:authorities="com.rex.db.node.example.androidx-startup"
+52-->[androidx.emoji2:emoji2:1.0.0] /data/data/com.itsaky.androidide/files/home/.gradle/caches/transforms-3/4f535a023a867df8d00acb7c626ac076/transformed/emoji2-1.0.0/AndroidManifest.xml:28:13-68
+53            android:exported="false" >
+53-->[androidx.emoji2:emoji2:1.0.0] /data/data/com.itsaky.androidide/files/home/.gradle/caches/transforms-3/4f535a023a867df8d00acb7c626ac076/transformed/emoji2-1.0.0/AndroidManifest.xml:29:13-37
+54            <meta-data
+54-->[androidx.emoji2:emoji2:1.0.0] /data/data/com.itsaky.androidide/files/home/.gradle/caches/transforms-3/4f535a023a867df8d00acb7c626ac076/transformed/emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+55                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+55-->[androidx.emoji2:emoji2:1.0.0] /data/data/com.itsaky.androidide/files/home/.gradle/caches/transforms-3/4f535a023a867df8d00acb7c626ac076/transformed/emoji2-1.0.0/AndroidManifest.xml:32:17-75
+56                android:value="androidx.startup" />
+56-->[androidx.emoji2:emoji2:1.0.0] /data/data/com.itsaky.androidide/files/home/.gradle/caches/transforms-3/4f535a023a867df8d00acb7c626ac076/transformed/emoji2-1.0.0/AndroidManifest.xml:33:17-49
+57            <meta-data
+57-->[androidx.lifecycle:lifecycle-process:2.4.0] /data/data/com.itsaky.androidide/files/home/.gradle/caches/transforms-3/4bc698de746d218b156a4981fafb653e/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+58                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+58-->[androidx.lifecycle:lifecycle-process:2.4.0] /data/data/com.itsaky.androidide/files/home/.gradle/caches/transforms-3/4bc698de746d218b156a4981fafb653e/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+59                android:value="androidx.startup" />
+59-->[androidx.lifecycle:lifecycle-process:2.4.0] /data/data/com.itsaky.androidide/files/home/.gradle/caches/transforms-3/4bc698de746d218b156a4981fafb653e/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+60        </provider>
+61    </application>
+62
+63</manifest>

@@ -1,0 +1,53 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /storage/emulated/0/AndroidIDEProjects/HelloDB/hellodb/src/main/AndroidManifest.xml:2:1-20:12
+INJECTED from /storage/emulated/0/AndroidIDEProjects/HelloDB/hellodb/src/main/AndroidManifest.xml:2:1-20:12
+INJECTED from /storage/emulated/0/AndroidIDEProjects/HelloDB/hellodb/src/main/AndroidManifest.xml:2:1-20:12
+	package
+		ADDED from /storage/emulated/0/AndroidIDEProjects/HelloDB/hellodb/src/main/AndroidManifest.xml:4:5-30
+		INJECTED from /storage/emulated/0/AndroidIDEProjects/HelloDB/hellodb/src/main/AndroidManifest.xml
+		INJECTED from /storage/emulated/0/AndroidIDEProjects/HelloDB/hellodb/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /storage/emulated/0/AndroidIDEProjects/HelloDB/hellodb/src/main/AndroidManifest.xml:3:5-51
+	xmlns:android
+		ADDED from /storage/emulated/0/AndroidIDEProjects/HelloDB/hellodb/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /storage/emulated/0/AndroidIDEProjects/HelloDB/hellodb/src/main/AndroidManifest.xml:6:5-67
+	android:name
+		ADDED from /storage/emulated/0/AndroidIDEProjects/HelloDB/hellodb/src/main/AndroidManifest.xml:6:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /storage/emulated/0/AndroidIDEProjects/HelloDB/hellodb/src/main/AndroidManifest.xml:7:5-79
+	android:name
+		ADDED from /storage/emulated/0/AndroidIDEProjects/HelloDB/hellodb/src/main/AndroidManifest.xml:7:22-76
+application
+ADDED from /storage/emulated/0/AndroidIDEProjects/HelloDB/hellodb/src/main/AndroidManifest.xml:9:5-18:19
+	android:usesCleartextTraffic
+		ADDED from /storage/emulated/0/AndroidIDEProjects/HelloDB/hellodb/src/main/AndroidManifest.xml:9:18-53
+service#com.rex.hellodb.components.ComponentDiscoveryService
+ADDED from /storage/emulated/0/AndroidIDEProjects/HelloDB/hellodb/src/main/AndroidManifest.xml:10:9-17:19
+	android:exported
+		ADDED from /storage/emulated/0/AndroidIDEProjects/HelloDB/hellodb/src/main/AndroidManifest.xml:12:13-37
+	tools:targetApi
+		ADDED from /storage/emulated/0/AndroidIDEProjects/HelloDB/hellodb/src/main/AndroidManifest.xml:13:13-32
+	android:name
+		ADDED from /storage/emulated/0/AndroidIDEProjects/HelloDB/hellodb/src/main/AndroidManifest.xml:11:13-80
+meta-data#com.rex.hellodb.components:com.rex.hellodb.components.ComponentRegistrar
+ADDED from /storage/emulated/0/AndroidIDEProjects/HelloDB/hellodb/src/main/AndroidManifest.xml:14:13-16:81
+	android:value
+		ADDED from /storage/emulated/0/AndroidIDEProjects/HelloDB/hellodb/src/main/AndroidManifest.xml:16:17-78
+	android:name
+		ADDED from /storage/emulated/0/AndroidIDEProjects/HelloDB/hellodb/src/main/AndroidManifest.xml:15:17-104
+uses-sdk
+INJECTED from /storage/emulated/0/AndroidIDEProjects/HelloDB/hellodb/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /storage/emulated/0/AndroidIDEProjects/HelloDB/hellodb/src/main/AndroidManifest.xml
+INJECTED from /storage/emulated/0/AndroidIDEProjects/HelloDB/hellodb/src/main/AndroidManifest.xml
+INJECTED from /storage/emulated/0/AndroidIDEProjects/HelloDB/hellodb/src/main/AndroidManifest.xml
+INJECTED from /storage/emulated/0/AndroidIDEProjects/HelloDB/hellodb/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /storage/emulated/0/AndroidIDEProjects/HelloDB/hellodb/src/main/AndroidManifest.xml
+		ADDED from /storage/emulated/0/AndroidIDEProjects/HelloDB/hellodb/src/main/AndroidManifest.xml
+		INJECTED from /storage/emulated/0/AndroidIDEProjects/HelloDB/hellodb/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /storage/emulated/0/AndroidIDEProjects/HelloDB/hellodb/src/main/AndroidManifest.xml
+		ADDED from /storage/emulated/0/AndroidIDEProjects/HelloDB/hellodb/src/main/AndroidManifest.xml
+		INJECTED from /storage/emulated/0/AndroidIDEProjects/HelloDB/hellodb/src/main/AndroidManifest.xml

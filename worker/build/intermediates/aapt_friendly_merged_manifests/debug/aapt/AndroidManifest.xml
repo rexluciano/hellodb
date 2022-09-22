@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.rex.worker" >
+
+    <uses-sdk
+        android:minSdkVersion="21"
+        android:targetSdkVersion="32" />
+
+    <application android:allowBackup="true" >
+        <service
+            android:name="com.rex.worker.Worker"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="com.rex.worker.action.START" />
+            </intent-filter>
+        </service>
+    </application>
+
+</manifest>

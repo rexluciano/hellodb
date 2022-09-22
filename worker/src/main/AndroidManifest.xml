@@ -1,0 +1,15 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.rex.worker">
+    
+    <application
+        android:allowBackup="true" >
+        <service
+            android:name="com.rex.worker.Worker"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="com.rex.worker.action.START" />
+            </intent-filter>
+        </service>
+    </application>
+
+</manifest>

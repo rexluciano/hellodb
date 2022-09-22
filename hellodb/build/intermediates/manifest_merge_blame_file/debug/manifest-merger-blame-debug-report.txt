@@ -1,0 +1,39 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:tools="http://schemas.android.com/tools"
+4    package="com.rex.hellodb" >
+5
+6    <uses-sdk
+7        android:minSdkVersion="21"
+7-->/storage/emulated/0/AndroidIDEProjects/HelloDB/hellodb/src/main/AndroidManifest.xml
+8        android:targetSdkVersion="32" />
+8-->/storage/emulated/0/AndroidIDEProjects/HelloDB/hellodb/src/main/AndroidManifest.xml
+9
+10    <uses-permission android:name="android.permission.INTERNET" />
+10-->/storage/emulated/0/AndroidIDEProjects/HelloDB/hellodb/src/main/AndroidManifest.xml:6:5-67
+10-->/storage/emulated/0/AndroidIDEProjects/HelloDB/hellodb/src/main/AndroidManifest.xml:6:22-64
+11    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+11-->/storage/emulated/0/AndroidIDEProjects/HelloDB/hellodb/src/main/AndroidManifest.xml:7:5-79
+11-->/storage/emulated/0/AndroidIDEProjects/HelloDB/hellodb/src/main/AndroidManifest.xml:7:22-76
+12
+13    <application android:usesCleartextTraffic="true" >
+13-->/storage/emulated/0/AndroidIDEProjects/HelloDB/hellodb/src/main/AndroidManifest.xml:9:5-18:19
+13-->/storage/emulated/0/AndroidIDEProjects/HelloDB/hellodb/src/main/AndroidManifest.xml:9:18-53
+14        <service
+14-->/storage/emulated/0/AndroidIDEProjects/HelloDB/hellodb/src/main/AndroidManifest.xml:10:9-17:19
+15            android:name="com.rex.hellodb.components.ComponentDiscoveryService"
+15-->/storage/emulated/0/AndroidIDEProjects/HelloDB/hellodb/src/main/AndroidManifest.xml:11:13-80
+16            android:exported="false"
+16-->/storage/emulated/0/AndroidIDEProjects/HelloDB/hellodb/src/main/AndroidManifest.xml:12:13-37
+17            tools:targetApi="n" >
+17-->/storage/emulated/0/AndroidIDEProjects/HelloDB/hellodb/src/main/AndroidManifest.xml:13:13-32
+18            <meta-data
+18-->/storage/emulated/0/AndroidIDEProjects/HelloDB/hellodb/src/main/AndroidManifest.xml:14:13-16:81
+19                android:name="com.rex.hellodb.components:com.rex.hellodb.components.ComponentRegistrar"
+19-->/storage/emulated/0/AndroidIDEProjects/HelloDB/hellodb/src/main/AndroidManifest.xml:15:17-104
+20                android:value="com.rex.hellodb.components.ComponentRegistrar" />
+20-->/storage/emulated/0/AndroidIDEProjects/HelloDB/hellodb/src/main/AndroidManifest.xml:16:17-78
+21        </service>
+22    </application>
+23
+24</manifest>

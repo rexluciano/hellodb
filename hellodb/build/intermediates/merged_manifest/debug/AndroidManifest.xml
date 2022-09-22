@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.rex.hellodb" >
+
+    <uses-sdk
+        android:minSdkVersion="21"
+        android:targetSdkVersion="32" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application android:usesCleartextTraffic="true" >
+        <service
+            android:name="com.rex.hellodb.components.ComponentDiscoveryService"
+            android:exported="false"
+            tools:targetApi="n" >
+            <meta-data
+                android:name="com.rex.hellodb.components:com.rex.hellodb.components.ComponentRegistrar"
+                android:value="com.rex.hellodb.components.ComponentRegistrar" />
+        </service>
+    </application>
+
+</manifest>

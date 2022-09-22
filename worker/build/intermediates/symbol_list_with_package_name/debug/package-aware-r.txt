@@ -1,0 +1,3 @@
+com.rex.worker
+drawable cmd_cube_outline
+drawable cmd_window_close

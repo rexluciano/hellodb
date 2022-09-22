@@ -1,0 +1,6 @@
+[
+    {
+        "merged": "com.rex.hellodb.app-mergeReleaseResources-24:/layout/activity_main.xml",
+        "source": "com.rex.hellodb.app-main-26:/layout/activity_main.xml"
+    }
+]

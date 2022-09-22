@@ -1,0 +1,2 @@
+int drawable cmd_cube_outline 0x0
+int drawable cmd_window_close 0x0

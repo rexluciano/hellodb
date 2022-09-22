@@ -1,0 +1,29 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.rex.worker" >
+4
+5    <uses-sdk
+6        android:minSdkVersion="21"
+6-->/storage/emulated/0/AndroidIDEProjects/HelloDB/worker/src/main/AndroidManifest.xml
+7        android:targetSdkVersion="32" />
+7-->/storage/emulated/0/AndroidIDEProjects/HelloDB/worker/src/main/AndroidManifest.xml
+8
+9    <application android:allowBackup="true" >
+9-->/storage/emulated/0/AndroidIDEProjects/HelloDB/worker/src/main/AndroidManifest.xml:4:5-13:19
+9-->/storage/emulated/0/AndroidIDEProjects/HelloDB/worker/src/main/AndroidManifest.xml:5:9-35
+10        <service
+10-->/storage/emulated/0/AndroidIDEProjects/HelloDB/worker/src/main/AndroidManifest.xml:6:9-12:19
+11            android:name="com.rex.worker.Worker"
+11-->/storage/emulated/0/AndroidIDEProjects/HelloDB/worker/src/main/AndroidManifest.xml:7:13-49
+12            android:exported="false" >
+12-->/storage/emulated/0/AndroidIDEProjects/HelloDB/worker/src/main/AndroidManifest.xml:8:13-37
+13            <intent-filter>
+13-->/storage/emulated/0/AndroidIDEProjects/HelloDB/worker/src/main/AndroidManifest.xml:9:13-11:29
+14                <action android:name="com.rex.worker.action.START" />
+14-->/storage/emulated/0/AndroidIDEProjects/HelloDB/worker/src/main/AndroidManifest.xml:10:17-70
+14-->/storage/emulated/0/AndroidIDEProjects/HelloDB/worker/src/main/AndroidManifest.xml:10:25-67
+15            </intent-filter>
+16        </service>
+17    </application>
+18
+19</manifest>
