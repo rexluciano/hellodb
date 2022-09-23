@@ -152,13 +152,9 @@ The dashboard where all of your project are hosted. Currently, dashboard isn't y
 
 ### Release Notes
 | SDK Version     | Platform | Library         |
-| --------------- | -------- | --------------- |
+| -------------------------- | --------------- | ----------------------- |
 | 1.0.0 or higher | Android  | Android Library |
 | 1.0.0 or higher | Desktop  | Not Available   |
-
-|   |
-| - |
-|   |
 
 
 ## License
